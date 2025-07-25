@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply font-firacode;
+}
+@keyframes strong-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.8);
+  }
+  50% {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 8px rgba(74, 222, 128, 0);
+  }
+}
+
+.animate-strong-pulse {
+  animation: strong-pulse 1.5s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
