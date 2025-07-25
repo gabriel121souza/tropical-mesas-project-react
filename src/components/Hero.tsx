@@ -21,9 +21,14 @@ export default function Hero() {
           >
             Ver Catálogo <FaArrowRight />
           </button>
-          <button className="bg-white text-primary-500 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium flex items-center gap-2">
+          <a
+            href="https://wa.me/5561991163414"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-primary-500 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium flex items-center gap-2"
+          >
             WhatsApp <FaWhatsapp />
-          </button>
+          </a>
         </div>
       </div>
     </section>

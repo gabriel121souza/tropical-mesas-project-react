@@ -11,10 +11,12 @@ export default function Header() {
         {/* Text */}
         <div className="text-2xl font-bold text-white">Tropical Mesas</div>
       </div>
-      
+
       {/* WhatsApp Button */}
       <a
         href="https://wa.me/5561991163414"
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-white hover:bg-gray-100 text-primary-500 px-4 py-2 rounded-lg flex items-center gap-2 font-medium transition-colors"
       >
         <FaWhatsapp className="text-lg" /> Reserve Agora
